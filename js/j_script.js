@@ -13,14 +13,14 @@ var left_house = new Image();
 var right_house = new Image();
 var news_paper = new Image();
 
-sound.src="C:/Users/Kratos Ganesh/Desktop/sound.mp3";
-bike_sound.src="C:/Users/Kratos Ganesh/Desktop/bike_sound.mp3"
-grass.src = "C:/Users/Kratos Ganesh/Desktop/grass.jpg";
-cycle.src = "C:/Users/Kratos Ganesh/Desktop/cycle.png";
-road.src  = "C:/Users/Kratos Ganesh/Desktop/road.jpg";
-left_house.src = "C:/Users/Kratos Ganesh/Desktop/left_house.png";
-right_house.src = "C:/Users/Kratos Ganesh/Desktop/right_house.png";
-news_paper.src = "C:/Users/Kratos Ganesh/Desktop/news_paper.png";
+sound.src="sound/sound.mp3";
+bike_sound.src="sound/bike_sound.mp3"
+grass.src = "images/grass.jpg";
+cycle.src = "images/cycle.png";
+road.src  = "images/road.jpg";
+left_house.src = "images/left_house.png";
+right_house.src = "images/right_house.png";
+news_paper.src = "images/news_paper.png";
 news_paper.id="news";
 
 window.onload=function(){
